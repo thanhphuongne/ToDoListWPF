@@ -27,5 +27,8 @@ namespace ToDoListWPF.Views
         private void SignUp_Click(object sender, RoutedEventArgs e)
         {
         }
+        private void cancel_Click(object sender, RoutedEventArgs e)
+        {       
+        }       
     }
 }

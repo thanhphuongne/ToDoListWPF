@@ -33,8 +33,10 @@
                     <RowDefinition Height="Auto"></RowDefinition>
                     <RowDefinition Height="Auto"></RowDefinition>
                     <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
                 </Grid.RowDefinitions>
-
                 <!-- Tiêu đề -->
                 <TextBlock Grid.Row="0" Text="Login"
                            FontSize="40" FontWeight="Bold"
@@ -86,8 +88,8 @@
                 </StackPanel>
                 <StackPanel Grid.Row="4" Orientation="Horizontal" 
                             HorizontalAlignment="Center" Margin="0,30">
-                    <Button Content="SignUp" Width="150" Height="40"
-                            Background="red" Foreground="White"
+                    <Button Content="SignUp" Width="200" Height="30"
+                            Background="Blue" Foreground="White"
                             FontSize="18" FontWeight="Bold"
                             Click="SignUp_Click"/>
                 </StackPanel>

@@ -33,6 +33,10 @@
                     <RowDefinition Height="Auto"></RowDefinition>
                     <RowDefinition Height="Auto"></RowDefinition>
                     <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
                 </Grid.RowDefinitions>
 
                 <!-- Tiêu đề -->
@@ -40,12 +44,58 @@
                            FontSize="40" FontWeight="Bold"
                            HorizontalAlignment="Center" 
                            Margin="0,0,0,30" />
-                <!-- Tên đăng nhập -->
+                <!-- Họ -->
                 <StackPanel Grid.Row="1" HorizontalAlignment="Center">
-                    <TextBlock Text="Email" 
-                               FontWeight="Bold" 
-                               FontSize="20" 
+                    <TextBlock Text="First Name" 
+                               FontWeight="Bold"
                                Margin="0,0,0,5"/>
+                    <Grid>
+                        <TextBox Width="250" 
+                                 x:Name="FirstNameTextBox" />
+                        <TextBlock x:Name="FirstNamePlaceholder"
+                                   Text="Enter your first name..."
+                                   Foreground="LightGray" 
+                                   VerticalAlignment="Center" 
+                                   Margin="10,0,0,0"
+                                   IsHitTestVisible="False"
+                                   Visibility="Visible" />
+                    </Grid>
+                </StackPanel>
+                <!-- Tên -->
+                <StackPanel Grid.Row="2" HorizontalAlignment="Center">
+                    <TextBlock Text="Last Name" 
+                               FontWeight="Bold"
+                               Margin="0,0,0,5"/>
+                    <Grid>
+                        <TextBox Width="250" 
+                                 x:Name="LastNameTextBox" />
+                        <TextBlock x:Name="LastNamePlaceholder"
+                                   Text="Enter your last name..."
+                                   Foreground="LightGray" 
+                                   VerticalAlignment="Center" 
+                                   Margin="10,0,0,0"
+                                   IsHitTestVisible="False"
+                                   Visibility="Visible" />
+                    </Grid>
+                </StackPanel>
+                <!-- Số điện thoại -->
+                <StackPanel Grid.Row="3" HorizontalAlignment="Center" Margin="0,5">
+                    <TextBlock Text="Phone Number" FontWeight="Bold" />
+                    <Grid>
+                        <TextBox Width="250" 
+                                 x:Name="PhoneNumberTextBox" />
+                        <TextBlock x:Name="PhoneNumberPlaceholder"
+                                   Text="Enter your phone number..."
+                                   Foreground="LightGray" 
+                                   VerticalAlignment="Center" 
+                                   Margin="10,0,0,0"
+                                   IsHitTestVisible="False"
+                                   Visibility="Visible" />
+                    </Grid>
+                </StackPanel>
+                <!-- Email -->
+                <StackPanel Grid.Row="4" HorizontalAlignment="Center" Margin="0,5">
+                    <TextBlock Text="Email" FontWeight="Bold" />
                     <Grid>
                         <TextBox Width="250" 
                                  x:Name="EmailTextBox" />
@@ -58,34 +108,46 @@
                                    Visibility="Visible" />
                     </Grid>
                 </StackPanel>
-
                 <!-- Mật khẩu -->
-                <StackPanel Grid.Row="2" HorizontalAlignment="Center" Margin="0,20">
-                    <TextBlock Text="Password" 
-                               FontWeight="Bold" 
-                               FontSize="20" Margin="0,0,0,5" />
+                <StackPanel Grid.Row="5" HorizontalAlignment="Center" Margin="0,5">
+                    <TextBlock Text="Password" FontWeight="Bold" />
                     <Grid>
-                        <PasswordBox x:Name="PasswordBox"
-                                     Width="250"/>
+                        <PasswordBox Width="250" x:Name="PasswordBox"/>
                         <TextBlock x:Name="PasswordPlaceholder"
                                    Text="Enter your password..."
                                    Foreground="LightGray" 
-                                   VerticalAlignment="Bottom" 
-                                   Margin="15,0,24,-11"
+                                   VerticalAlignment="Center" 
+                                   Margin="10,0,0,0"
                                    IsHitTestVisible="False"
-                                   Visibility="Visible" Height="28" />
+                                   Visibility="Visible"/>
                     </Grid>
                 </StackPanel>
-                <!-- Nút Login phóng to -->
-                <StackPanel Grid.Row="3" Orientation="Horizontal" 
-                            HorizontalAlignment="Center" Margin="0,30">
+                <!-- Xác nhận mật khẩu -->
+                <StackPanel Grid.Row="6" HorizontalAlignment="Center" Margin="0,5">
+                    <TextBlock Text="Confirm Password" FontWeight="Bold" />
+                    <Grid>
+                        <PasswordBox Width="250" x:Name="ConfirmPasswordBox" />
+                        <TextBlock x:Name="ConfirmPasswordPlaceholder"
+                                   Text="Confirm your password..."
+                                   Foreground="LightGray" 
+                                   VerticalAlignment="Center" 
+                                   Margin="10,0,0,0"
+                                   IsHitTestVisible="False"
+                                   Visibility="Visible"/>
+                    </Grid>
                 </StackPanel>
-                <StackPanel Grid.Row="4" Orientation="Horizontal" 
-                            HorizontalAlignment="Center" Margin="0,30">
-                    <Button Content="SignUp" Width="150" Height="40"
-                            Background="red" Foreground="White"
-                            FontSize="18" FontWeight="Bold"
+
+                <!-- Các nút hành động -->
+                <StackPanel Grid.Row="7" Orientation="Horizontal" 
+                            HorizontalAlignment="Center" Margin="0,20">
+                    <Button Content="Sign Up" Width="120" 
+                            Background="Red" 
+                            Foreground="White" 
+                            Margin="0,0,10,0" 
                             Click="SignUp_Click"/>
+                    <Button Content="Cancel" Width="120" 
+                            Background="LightGray" 
+                            Click="cancel_Click"/>
                 </StackPanel>
             </Grid>
         </Border>
