@@ -1,0 +1,98 @@
+﻿<Window x:Class="ToDoListWPF.Views.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ToDoListWPF.Views"
+        mc:Ignorable="d"
+        Title="Login"
+        WindowState="Maximized"
+        WindowStyle="None">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20">
+            <!-- Logo -->
+            <Image Source="C:\Users\hienn\Pictures\anhlogo.jpg"
+               Width="100" 
+               Height="100" 
+               Margin="0,0,20,0" />
+        </StackPanel>
+
+        <!-- Card Login lớn hơn -->
+        <Border Width="400" Height="500" 
+                VerticalAlignment="Center" HorizontalAlignment="Center"
+                BorderBrush="Gray" BorderThickness="3"
+                CornerRadius="15" Background="White">
+            <Grid Margin="30">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <!-- Tiêu đề -->
+                <TextBlock Grid.Row="0" Text="Login"
+                           FontSize="40" FontWeight="Bold"
+                           HorizontalAlignment="Center" 
+                           Margin="0,0,0,30" />
+                <!-- Tên đăng nhập -->
+                <StackPanel Grid.Row="1" HorizontalAlignment="Center">
+                    <TextBlock Text="Email" 
+                               FontWeight="Bold" 
+                               FontSize="20" 
+                               Margin="0,0,0,5"/>
+                    <Grid>
+                        <TextBox Width="250" 
+                                 x:Name="EmailTextBox" />
+                        <TextBlock x:Name="EmailPlaceholder"
+                                   Text="Enter your email..."
+                                   Foreground="LightGray" 
+                                   VerticalAlignment="Center" 
+                                   Margin="10,0,0,0"
+                                   IsHitTestVisible="False"
+                                   Visibility="Visible" />
+                    </Grid>
+                </StackPanel>
+
+                <!-- Mật khẩu -->
+                <StackPanel Grid.Row="2" HorizontalAlignment="Center" Margin="0,20">
+                    <TextBlock Text="Password" 
+                               FontWeight="Bold" 
+                               FontSize="20" Margin="0,0,0,5" />
+                    <Grid>
+                        <PasswordBox x:Name="PasswordBox"
+                                     Width="250"/>
+                        <TextBlock x:Name="PasswordPlaceholder"
+                                   Text="Enter your password..."
+                                   Foreground="LightGray" 
+                                   VerticalAlignment="Bottom" 
+                                   Margin="15,0,24,-11"
+                                   IsHitTestVisible="False"
+                                   Visibility="Visible" Height="28" />
+                    </Grid>
+                </StackPanel>
+                <!-- Nút Login phóng to -->
+                <StackPanel Grid.Row="3" Orientation="Horizontal" 
+                            HorizontalAlignment="Center" Margin="0,30">
+                    <Button Content="Login" Width="150" Height="40"
+                            Background="red" Foreground="White"
+                            FontSize="18" FontWeight="Bold"
+                            Click="Login_Click"/>
+                </StackPanel>
+                <StackPanel Grid.Row="4" Orientation="Horizontal" 
+                            HorizontalAlignment="Center" Margin="0,30">
+                    <Button Content="SignUp" Width="150" Height="40"
+                            Background="red" Foreground="White"
+                            FontSize="18" FontWeight="Bold"
+                            Click="SignUp_Click"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+    </Grid>
+</Window>
