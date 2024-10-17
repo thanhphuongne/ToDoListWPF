@@ -11,14 +11,22 @@
     <Window.Resources>
         <!-- Style for ToggleButton to change background when selected -->
         <Style TargetType="ToggleButton">
+            <!-- Default background and padding for all toggle buttons -->
             <Setter Property="Background" Value="#FFFCFAF8"/>
             <Setter Property="BorderBrush" Value="#FFFCFAF8"/>
             <Setter Property="Padding" Value="10"/>
+
+            <!-- Triggers for different states -->
             <Style.Triggers>
-                <!-- Change background when selected -->
+                <!-- When the toggle button is selected (IsChecked=True) -->
                 <Trigger Property="IsChecked" Value="True">
                     <Setter Property="Background" Value="Orange"/>
                     <Setter Property="Foreground" Value="White"/>
+                </Trigger>
+
+                <!-- When the mouse is hovering over the button -->
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="LightGray"/>
                 </Trigger>
             </Style.Triggers>
         </Style>
@@ -29,9 +37,9 @@
         <!-- Navbar on the left -->
         <StackPanel DockPanel.Dock="Left" Background="#FFFCFAF8" Width="153">
             <TextBlock FontSize="18" FontWeight="Bold" Margin="10" Text="User"/>
+            <ToggleButton Content="Today" Padding="10" IsChecked="True" />
 
             <!-- ToggleButtons for menu items -->
-            <ToggleButton Content="Today" Padding="10" IsChecked="True"/>
             <ToggleButton Content="Completed" Padding="10"/>
             <ToggleButton Content="Upcoming" Padding="10"/>
             <ToggleButton Content="Settings" Padding="10"/>
