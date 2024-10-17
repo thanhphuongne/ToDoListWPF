@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Thanh Phuong\OneDrive\Documents\GitHub\ToDoListWPF\obj\Debug\net8.0-windows\
+D:\Tai_lieu_hoc_tap\PRN212\ToDoListWPF\obj\Debug\net8.0-windows\
 ToDoListWPF
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\Thanh Phuong\OneDrive\Documents\GitHub\ToDoListWPF\App.xaml
+D:\Tai_lieu_hoc_tap\PRN212\ToDoListWPF\App.xaml
 3770064506
 
 1126114958
 198-556154604
 MainWindow.xaml;View\CompletedTask.xaml;View\ToDayTask.xaml;
 
-False
+True
 

@@ -53,7 +53,7 @@ namespace ToDoListWPF {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ToDoListWPF;component/view/todaytask.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ToDoListWPF;V1.0.0.0;component/view/todaytask.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View\ToDayTask.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
