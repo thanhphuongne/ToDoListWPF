@@ -28,32 +28,39 @@
                 <TextBlock Text="Upcoming" FontSize="24" FontWeight="Bold" />
                 <TextBlock Text="X tasks" FontSize="14" Foreground="Gray" Margin="0,5,0,20"/>
 
-                <!-- Task Example -->
-                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
-                    <RadioButton Width="20" Height="20" BorderBrush="Orange" BorderThickness="2" />
-                    <StackPanel Margin="10,0,0,0">
-                        <TextBlock Text="Task 1" FontSize="16" FontWeight="SemiBold" />
-                        <TextBlock Text="Task 1 description for upcoming tasks" FontSize="12" Foreground="Gray" />
-                    </StackPanel>
-                </StackPanel>
+                <!-- Task Sections based on dates -->
+
+                <!-- Today -->
+                <TextBlock Text="{Binding Today, StringFormat='{}{0:dd MMM · Today · dddd}'}" FontSize="16" FontWeight="SemiBold" />
+                <Button Content="+ Add task" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="Red" Background="White" BorderBrush="Red" Width="150" />
 
                 <!-- Separator -->
                 <Separator Margin="0,10,0,10"/>
 
-                <!-- Another Task Example -->
-                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
-                    <RadioButton Width="20" Height="20" BorderBrush="Orange" BorderThickness="2" />
-                    <StackPanel Margin="10,0,0,0">
-                        <TextBlock Text="Task 2" FontSize="16" FontWeight="SemiBold" />
-                        <TextBlock Text="Task 2 description for upcoming tasks" FontSize="12" Foreground="Gray" />
-                    </StackPanel>
-                </StackPanel>
+                <!-- Tomorrow -->
+                <TextBlock Text="{Binding Tomorrow, StringFormat='{}{0:dd MMM · Tomorrow · dddd}'}" FontSize="16" FontWeight="SemiBold" />
+                <Button Content="+ Add task" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="Red" Background="White" BorderBrush="Red" Width="150" />
 
                 <!-- Separator -->
                 <Separator Margin="0,10,0,10"/>
 
-                <!-- Add Task Button -->
-                <Button Content="+ Add task" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="Red" Background="White" BorderBrush="Red" Width="150"/>
+                <!-- Day After Tomorrow -->
+                <TextBlock Text="{Binding DayAfterTomorrow, StringFormat='{}{0:dd MMM · dddd}'}" FontSize="16" FontWeight="SemiBold" />
+                <Button Content="+ Add task" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="Red" Background="White" BorderBrush="Red" Width="150" />
+
+                <!-- Separator -->
+                <Separator Margin="0,10,0,10"/>
+
+                <!-- Two Days After Tomorrow -->
+                <TextBlock Text="{Binding TwoDaysAfterTomorrow, StringFormat='{}{0:dd MMM · dddd}'}" FontSize="16" FontWeight="SemiBold" />
+                <Button Content="+ Add task" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="Red" Background="White" BorderBrush="Red" Width="150" />
+
+                <!-- Separator -->
+                <Separator Margin="0,10,0,10"/>
+
+                <!-- Three Days After Tomorrow -->
+                <TextBlock Text="{Binding ThreeDaysAfterTomorrow, StringFormat='{}{0:dd MMM · dddd}'}" FontSize="16" FontWeight="SemiBold" />
+                <Button Content="+ Add task" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="Red" Background="White" BorderBrush="Red" Width="150" />
             </StackPanel>
         </Grid>
     </DockPanel>

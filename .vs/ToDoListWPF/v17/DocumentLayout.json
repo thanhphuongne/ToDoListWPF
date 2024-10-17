@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|solutionrelative:views\\upcomingtask.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|d:\\tai_lieu_hoc_tap\\prn212\\todolistwpf\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|d:\\tai_lieu_hoc_tap\\prn212\\todolistwpf\\views\\upcomingtask.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|solutionrelative:views\\upcomingtask.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,6 +47,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": ".gitignore",
+              "DocumentMoniker": "D:\\Tai_lieu_hoc_tap\\PRN212\\ToDoListWPF\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "D:\\Tai_lieu_hoc_tap\\PRN212\\ToDoListWPF\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-17T14:13:42.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "UpcomingTask.xaml.cs",
               "DocumentMoniker": "D:\\Tai_lieu_hoc_tap\\PRN212\\ToDoListWPF\\Views\\UpcomingTask.xaml.cs",
               "RelativeDocumentMoniker": "Views\\UpcomingTask.xaml.cs",
@@ -50,8 +67,7 @@
               "RelativeToolTip": "Views\\UpcomingTask.xaml.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAAcwBsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T09:21:59.738Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T09:21:59.738Z"
             },
             {
               "$type": "Document",

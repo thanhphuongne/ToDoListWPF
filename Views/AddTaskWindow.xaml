@@ -4,71 +4,59 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        Title="Add New Task" Height="450" Width="500"
+        Title="Add New Task" Height="450" Width="800"
         WindowStartupLocation="CenterScreen">
 
-    <!-- Resources for Styling -->
-    <Window.Resources>
-        <!-- Style for TextBox -->
-        <Style TargetType="TextBox">
-            <Setter Property="Margin" Value="0,5,0,15" />
-            <Setter Property="Padding" Value="8,5" />
-            <Setter Property="FontSize" Value="14"/>
-        </Style>
+    <Grid Background="#F9F9F9" Margin="20">
+        <StackPanel>
+            <!-- Tiêu đề -->
+            <TextBlock FontSize="32" FontWeight="Bold" Text="Add New Task" 
+                       Foreground="#333333" Height="43" Width="192"/>
 
-        <!-- Style for Button -->
-        <Style TargetType="Button">
-            <Setter Property="Margin" Value="0,20,0,0" />
-            <Setter Property="Padding" Value="10" />
-            <Setter Property="Background" Value="Orange" />
-            <Setter Property="Foreground" Value="White" />
-            <Setter Property="FontWeight" Value="Bold" />
-            <Setter Property="BorderBrush" Value="Orange" />
-            <Setter Property="Width" Value="150"/>
-            <Setter Property="HorizontalAlignment" Value="Center"/>
-        </Style>
+            <!-- Nhập tiêu đề công việc -->
+            <TextBlock Text="Task Name" FontSize="16" Margin="0,0,0,5" Foreground="#444444"/>
+            <TextBox x:Name="TaskTitleTextBox" Height="20" Margin="0,0,0,20" Padding="10" 
+                     Background="#FFFFFF" BorderBrush="#E0E0E0" BorderThickness="1" 
+                     Foreground="#333333" FontSize="14" ToolTip="Enter task title..." 
+                     Text="{Binding NewTask.Name}" />
 
-        <!-- Style for TextBlock -->
-        <Style TargetType="TextBlock">
-            <Setter Property="FontWeight" Value="SemiBold" />
-            <Setter Property="FontSize" Value="14" />
-            <Setter Property="Margin" Value="0,10,0,5" />
-        </Style>
-    </Window.Resources>
+            <!-- Nhập mô tả công việc -->
+            <TextBlock Text="Description" FontSize="16" Foreground="#444444"/>
+            <TextBox x:Name="TaskDescriptionTextBox" Height="30" Margin="0,0,0,20" Padding="10" 
+                     Background="#FFFFFF" BorderBrush="#E0E0E0" BorderThickness="1" 
+                     Foreground="#333333" FontSize="14" TextWrapping="Wrap" AcceptsReturn="True" 
+                     Text="{Binding NewTask.Description}" />
 
-    <!-- Main Layout Grid -->
-    <Grid Margin="20">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-        </Grid.RowDefinitions>
+            <!-- Chọn ngày đến hạn -->
+            <TextBlock Text="Due Date" FontSize="16" Margin="0,0,0,5" Foreground="#444444"/>
+            <DatePicker x:Name="DueDatePicker" Margin="0,0,0,20" Background="#FFFFFF" 
+                        Foreground="#333333" SelectedDate="{Binding NewTask.DueDate}" />
 
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto" />
-            <ColumnDefinition Width="*" />
-        </Grid.ColumnDefinitions>
+            <!-- Priority, Reminders, and other buttons -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,0,0,20">
+                <Button Content="Today" Padding="10" Margin="0,0,10,0" 
+                        Background="#E8F5E9" Foreground="#1B5E20" BorderBrush="Transparent"
+                        FontWeight="Bold" />
+                <Button Content="Priority" Padding="10" Margin="0,0,10,0" 
+                        Background="#FFF8E1" Foreground="#FF8F00" BorderBrush="Transparent"
+                        FontWeight="Bold" />
+                <Button Content="Reminders" Padding="10" Margin="0,0,10,0" 
+                        Background="#E3F2FD" Foreground="#0D47A1" BorderBrush="Transparent"
+                        FontWeight="Bold" />
+                <Button Content="..." Padding="10" Margin="0,0,10,0" 
+                        Background="#ECEFF1" Foreground="#37474F" BorderBrush="Transparent" 
+                        FontWeight="Bold" />
+            </StackPanel>
 
-        <!-- Task Name -->
-        <TextBlock Text="Task Name" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" />
-        <TextBox Text="{Binding NewTask.Name}" Grid.Row="0" Grid.Column="1" Width="300" />
-
-        <!-- Description -->
-        <TextBlock Text="Description" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" />
-        <TextBox Text="{Binding NewTask.Description}" Grid.Row="1" Grid.Column="1" Width="300" Height="80" TextWrapping="Wrap" AcceptsReturn="True" />
-
-        <!-- Due Date -->
-        <TextBlock Text="Due Date" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" />
-        <DatePicker SelectedDate="{Binding NewTask.DueDate}" Grid.Row="2" Grid.Column="1" Width="300" HorizontalContentAlignment="Stretch" Margin="0,0,0,5" />
-
-        <!-- Priority -->
-        <TextBlock Text="Priority" Grid.Row="3" Grid.Column="0" VerticalAlignment="Center" />
-        <TextBox Text="{Binding NewTask.Priority}" Grid.Row="3" Grid.Column="1" Width="300" />
-
-        <!-- Button -->
-        <Button Content="Add Task" Command="{Binding AddTaskCommand}" Grid.Row="4" Grid.ColumnSpan="2" />
+            <!-- Nút Save và Cancel -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button x:Name="AddTaskButton" Width="100" Height="40" Content="Add" Margin="0,0,10,0" 
+                        Background="#5C9EDD" Foreground="White" BorderBrush="Transparent" 
+                        FontWeight="Bold" Cursor="Hand" Command="{Binding AddTaskCommand}" />
+                <Button x:Name="CancelButton" Width="100" Height="40" Content="Cancel" 
+                        Background="#F44336" Foreground="White" BorderBrush="Transparent" 
+                        FontWeight="Bold" Cursor="Hand" />
+            </StackPanel>
+        </StackPanel>
     </Grid>
 </Window>
