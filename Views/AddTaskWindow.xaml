@@ -1,0 +1,22 @@
+﻿<Window x:Class="ToDoListWPF.Views.AddTaskWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Add New Task" Height="400" Width="500">
+    <Grid>
+        <StackPanel Margin="20">
+            <TextBlock Text="Task Name" />
+            <TextBox Text="{Binding NewTask.Name}" />
+
+            <TextBlock Text="Description" />
+            <TextBox Text="{Binding NewTask.Description}" />
+
+            <TextBlock Text="Due Date" />
+            <DatePicker SelectedDate="{Binding NewTask.DueDate}" />
+
+            <TextBlock Text="Priority" />
+            <TextBox Text="{Binding NewTask.Priority}" />
+
+            <Button Content="Add Task" Command="{Binding AddTaskCommand}" />
+        </StackPanel>
+    </Grid>
+</Window>
