@@ -7,34 +7,16 @@
       "RelativeMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|solutionrelative:views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|d:\\tai_lieu_hoc_tap\\prn212\\todolistwpf\\todolistwpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|solutionrelative:todolistwpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|d:\\tai_lieu_hoc_tap\\prn212\\todolistwpf\\models\\todotask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|solutionrelative:models\\todotask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|d:\\tai_lieu_hoc_tap\\prn212\\todolistwpf\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|solutionrelative:views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|d:\\tai_lieu_hoc_tap\\prn212\\todolistwpf\\viewmodels\\taskviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|solutionrelative:viewmodels\\taskviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|d:\\tai_lieu_hoc_tap\\prn212\\todolistwpf\\views\\addtaskwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|solutionrelative:views\\addtaskwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|d:\\tai_lieu_hoc_tap\\prn212\\todolistwpf\\converters\\lengthtovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|solutionrelative:converters\\lengthtovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|d:\\tai_lieu_hoc_tap\\prn212\\todolistwpf\\views\\upcomingtask.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|solutionrelative:views\\upcomingtask.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|d:\\tai_lieu_hoc_tap\\prn212\\todolistwpf\\views\\upcomingtask.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|solutionrelative:views\\upcomingtask.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -44,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpcomingTask.xaml.cs",
+              "DocumentMoniker": "D:\\Tai_lieu_hoc_tap\\PRN212\\ToDoListWPF\\Views\\UpcomingTask.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\UpcomingTask.xaml.cs",
+              "ToolTip": "D:\\Tai_lieu_hoc_tap\\PRN212\\ToDoListWPF\\Views\\UpcomingTask.xaml.cs",
+              "RelativeToolTip": "Views\\UpcomingTask.xaml.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAcwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T09:21:59.738Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
@@ -64,77 +59,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "UpcomingTask.xaml",
+              "DocumentMoniker": "D:\\Tai_lieu_hoc_tap\\PRN212\\ToDoListWPF\\Views\\UpcomingTask.xaml",
+              "RelativeDocumentMoniker": "Views\\UpcomingTask.xaml",
+              "ToolTip": "D:\\Tai_lieu_hoc_tap\\PRN212\\ToDoListWPF\\Views\\UpcomingTask.xaml",
+              "RelativeToolTip": "Views\\UpcomingTask.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-17T09:19:17.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AddTaskWindow.xaml",
               "DocumentMoniker": "D:\\Tai_lieu_hoc_tap\\PRN212\\ToDoListWPF\\Views\\AddTaskWindow.xaml",
               "RelativeDocumentMoniker": "Views\\AddTaskWindow.xaml",
               "ToolTip": "D:\\Tai_lieu_hoc_tap\\PRN212\\ToDoListWPF\\Views\\AddTaskWindow.xaml",
               "RelativeToolTip": "Views\\AddTaskWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-17T06:46:02.707Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ResourcePart.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
-              "ToolTip": "C:\\Users\\Admin\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs [Read Only]",
-              "ViewState": "AQIAABIAAAAAAAAAAAAvwDEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T06:02:58.066Z",
-              "EditorCaption": " [Read Only]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TaskViewModel.cs",
-              "DocumentMoniker": "D:\\Tai_lieu_hoc_tap\\PRN212\\ToDoListWPF\\ViewModels\\TaskViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\TaskViewModel.cs",
-              "ToolTip": "D:\\Tai_lieu_hoc_tap\\PRN212\\ToDoListWPF\\ViewModels\\TaskViewModel.cs",
-              "RelativeToolTip": "ViewModels\\TaskViewModel.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAwwCkAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T04:02:13.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ToDoListWPF.csproj",
-              "DocumentMoniker": "D:\\Tai_lieu_hoc_tap\\PRN212\\ToDoListWPF\\ToDoListWPF.csproj",
-              "RelativeDocumentMoniker": "ToDoListWPF.csproj",
-              "ToolTip": "D:\\Tai_lieu_hoc_tap\\PRN212\\ToDoListWPF\\ToDoListWPF.csproj",
-              "RelativeToolTip": "ToDoListWPF.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-17T03:42:27.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ToDoTask.cs",
-              "DocumentMoniker": "D:\\Tai_lieu_hoc_tap\\PRN212\\ToDoListWPF\\Models\\ToDoTask.cs",
-              "RelativeDocumentMoniker": "Models\\ToDoTask.cs",
-              "ToolTip": "D:\\Tai_lieu_hoc_tap\\PRN212\\ToDoListWPF\\Models\\ToDoTask.cs",
-              "RelativeToolTip": "Models\\ToDoTask.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAzwBMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T03:35:49.581Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Tai_lieu_hoc_tap\\PRN212\\ToDoListWPF\\Views\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\Tai_lieu_hoc_tap\\PRN212\\ToDoListWPF\\Views\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Views\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAvwBAAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T19:07:57.723Z",
+              "WhenOpened": "2024-10-17T09:08:13.465Z",
               "EditorCaption": ""
             },
             {
@@ -146,31 +90,8 @@
               "ToolTip": "D:\\Tai_lieu_hoc_tap\\PRN212\\ToDoListWPF\\Views\\MainWindow.xaml",
               "RelativeToolTip": "Views\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-15T15:37:11.27Z",
+              "WhenOpened": "2024-10-17T09:08:11.797Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LengthToVisibilityConverter.cs",
-              "DocumentMoniker": "D:\\Tai_lieu_hoc_tap\\PRN212\\ToDoListWPF\\Converters\\LengthToVisibilityConverter.cs",
-              "RelativeDocumentMoniker": "Converters\\LengthToVisibilityConverter.cs",
-              "ToolTip": "D:\\Tai_lieu_hoc_tap\\PRN212\\ToDoListWPF\\Converters\\LengthToVisibilityConverter.cs",
-              "RelativeToolTip": "Converters\\LengthToVisibilityConverter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T05:51:48.831Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "XamlReader.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
-              "ToolTip": "C:\\Users\\Admin\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs [Read Only]",
-              "ViewState": "AQIAAKMBAAAAAAAAAAAUwLUBAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T19:09:10.481Z"
             }
           ]
         }

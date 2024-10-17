@@ -1,0 +1,57 @@
+﻿<Window x:Class="ToDoListWPF.Views.UpcomingTask"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:system="clr-namespace:System;assembly=mscorlib"
+        xmlns:local="clr-namespace:ToDoListWPF.ViewModels"
+        mc:Ignorable="d"
+        Title="Upcoming Tasks" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen">
+
+    <Window.DataContext>
+        <local:TaskViewModel />
+    </Window.DataContext>
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Tiêu đề -->
+        <TextBlock Text="Upcoming Tasks" FontSize="18" FontWeight="Bold" Margin="0,0,0,20" Grid.Row="0" />
+
+        <!-- Danh sách các task -->
+        <ListView ItemsSource="{Binding Tasks}" SelectedItem="{Binding SelectedTask}" Margin="0,0,0,20" Grid.Row="1">
+            <ListView.Resources>
+                <!-- DataTrigger để lọc các task dựa trên DueDate -->
+                <Style TargetType="ListViewItem">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding DueDate}" Value="{x:Static system:DateTime.Now}">
+                            <Setter Property="Visibility" Value="Collapsed"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </ListView.Resources>
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="ID" DisplayMemberBinding="{Binding Id}" Width="50" />
+                    <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Name}" Width="100" />
+                    <GridViewColumn Header="Description" DisplayMemberBinding="{Binding Description}" Width="150" />
+                    <GridViewColumn Header="Due Date" DisplayMemberBinding="{Binding DueDate, StringFormat=d}" Width="100" />
+                    <GridViewColumn Header="Priority" DisplayMemberBinding="{Binding Priority}" Width="80" />
+                    <GridViewColumn Header="Completed" DisplayMemberBinding="{Binding IsCompleted}" Width="80" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <!-- Nút Add, Delete, Update Task được căn dưới cùng bên trái -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Bottom" Grid.Row="2" Margin="0,20,0,0">
+            <Button Content="Add Task" Command="{Binding AddTaskCommand}" Width="100" Margin="10,0" />
+            <Button Content="Delete Task" Command="{Binding DeleteTaskCommand}" IsEnabled="{Binding SelectedTask}" Width="100" Margin="10,0" />
+            <Button Content="Update Task" Command="{Binding UpdateTaskCommand}" IsEnabled="{Binding SelectedTask}" Width="100" Margin="10,0" />
+        </StackPanel>
+    </Grid>
+</Window>

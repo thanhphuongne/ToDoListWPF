@@ -10,12 +10,18 @@
     <Compile Update="Views\AddTaskWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\UpcomingTask.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Views\AddTaskWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\UpcomingTask.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
