@@ -6,6 +6,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Compile Update="Views\AddTaskWindow.xaml.cs">
       <SubType>Code</SubType>

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\Tai_lieu_hoc_tap\PRN212\ToDoListWPF\App.xaml
-2-1870147844
+41787838617
 
-10-817662500
+13-1271528311
 198-556154604
-Views\AddTaskWindow.xaml;Views\UpcomingTask.xaml;
+Views\AddTaskWindow.xaml;Views\UpcomingTask.xaml;View\CompletedTask.xaml;View\ToDayTask.xaml;
 
 False
 
