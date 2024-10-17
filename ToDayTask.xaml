@@ -1,0 +1,76 @@
+﻿<Window x:Class="ToDoListWPF.ToDayTask"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ToDoListWPF"
+        mc:Ignorable="d"
+        Title="ToDayTask" Height="450" Width="800">
+
+    <!-- Resources for Styling -->
+    <Window.Resources>
+        <!-- Style for ToggleButton to change background when selected -->
+        <Style TargetType="ToggleButton">
+            <Setter Property="Background" Value="#FFFCFAF8"/>
+            <Setter Property="BorderBrush" Value="#FFFCFAF8"/>
+            <Setter Property="Padding" Value="10"/>
+            <Style.Triggers>
+                <!-- Change background when selected -->
+                <Trigger Property="IsChecked" Value="True">
+                    <Setter Property="Background" Value="Orange"/>
+                    <Setter Property="Foreground" Value="White"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
+    <!-- Main Layout using DockPanel -->
+    <DockPanel>
+        <!-- Navbar on the left -->
+        <StackPanel DockPanel.Dock="Left" Background="#FFFCFAF8" Width="153">
+            <TextBlock FontSize="18" FontWeight="Bold" Margin="10" Text="User"/>
+
+            <!-- ToggleButtons for menu items -->
+            <ToggleButton Content="Today" Padding="10" IsChecked="True"/>
+            <ToggleButton Content="Completed" Padding="10"/>
+            <ToggleButton Content="Upcoming" Padding="10"/>
+            <ToggleButton Content="Settings" Padding="10"/>
+        </StackPanel>
+
+        <!-- Main Content Area -->
+        <Grid>
+            <StackPanel Margin="20">
+                <!-- Header Section -->
+                <TextBlock Text="Today" FontSize="24" FontWeight="Bold" />
+                <TextBlock Text="2 tasks" FontSize="14" Foreground="Gray" Margin="0,5,0,20"/>
+
+                <!-- First Task -->
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                    <RadioButton Width="20" Height="20" BorderBrush="Red" BorderThickness="2" />
+                    <StackPanel Margin="10,0,0,0">
+                        <TextBlock Text="Browse the Todoist Inspiration Hub" FontSize="16" FontWeight="SemiBold" />
+                        <TextBlock Text="For productivity advice and to sign up for our newsletter" FontSize="12" Foreground="Gray" />
+                    </StackPanel>
+                </StackPanel>
+
+                <!-- Separator -->
+                <Separator Margin="0,10,0,10"/>
+
+                <!-- Second Task -->
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                    <RadioButton Width="20" Height="20" BorderBrush="Orange" BorderThickness="2" />
+                    <StackPanel Margin="10,0,0,0">
+                        <TextBlock Text="Task 2" FontSize="16" FontWeight="SemiBold" />
+                        <TextBlock Text="For productivity advice and to sign up for our newsletter" FontSize="12" Foreground="Gray" />
+                    </StackPanel>
+                </StackPanel>
+
+                <!-- Separator -->
+                <Separator Margin="0,10,0,10"/>
+
+                <!-- Add Task Button -->
+                <Button Content="+ Add task" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="Red" Background="White" BorderBrush="Red" Width="150"/>
+            </StackPanel>
+        </Grid>
+    </DockPanel>
+</Window>
