@@ -19,7 +19,7 @@ C:\Users\Thanh Phuong\OneDrive\Documents\GitHub\ToDoListWPF\obj\Debug\net8.0-win
 C:\Users\Thanh Phuong\OneDrive\Documents\GitHub\ToDoListWPF\obj\Debug\net8.0-windows\ToDoListWPF.pdb
 C:\Users\Thanh Phuong\OneDrive\Documents\GitHub\ToDoListWPF\obj\Debug\net8.0-windows\ToDoListWPF.genruntimeconfig.cache
 C:\Users\Thanh Phuong\OneDrive\Documents\GitHub\ToDoListWPF\obj\Debug\net8.0-windows\ref\ToDoListWPF.dll
-C:\Users\Thanh Phuong\OneDrive\Documents\GitHub\ToDoListWPF\obj\Debug\net8.0-windows\ToDayTask.g.cs
-C:\Users\Thanh Phuong\OneDrive\Documents\GitHub\ToDoListWPF\obj\Debug\net8.0-windows\ToDayTask.baml
-C:\Users\Thanh Phuong\OneDrive\Documents\GitHub\ToDoListWPF\obj\Debug\net8.0-windows\CompletedTask.g.cs
-C:\Users\Thanh Phuong\OneDrive\Documents\GitHub\ToDoListWPF\obj\Debug\net8.0-windows\CompletedTask.baml
+C:\Users\Thanh Phuong\OneDrive\Documents\GitHub\ToDoListWPF\obj\Debug\net8.0-windows\View\CompletedTask.g.cs
+C:\Users\Thanh Phuong\OneDrive\Documents\GitHub\ToDoListWPF\obj\Debug\net8.0-windows\View\ToDayTask.g.cs
+C:\Users\Thanh Phuong\OneDrive\Documents\GitHub\ToDoListWPF\obj\Debug\net8.0-windows\View\CompletedTask.baml
+C:\Users\Thanh Phuong\OneDrive\Documents\GitHub\ToDoListWPF\obj\Debug\net8.0-windows\View\ToDayTask.baml

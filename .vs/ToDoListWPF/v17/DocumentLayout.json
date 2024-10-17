@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Thanh Phuong\\OneDrive\\Documents\\GitHub\\ToDoListWPF\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|c:\\users\\thanh phuong\\onedrive\\documents\\github\\todolistwpf\\view\\completedtask.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|solutionrelative:view\\completedtask.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|c:\\users\\thanh phuong\\onedrive\\documents\\github\\todolistwpf\\todolistwpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|solutionrelative:todolistwpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -35,6 +39,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CompletedTask.xaml",
+              "DocumentMoniker": "C:\\Users\\Thanh Phuong\\OneDrive\\Documents\\GitHub\\ToDoListWPF\\View\\CompletedTask.xaml",
+              "RelativeDocumentMoniker": "View\\CompletedTask.xaml",
+              "ToolTip": "C:\\Users\\Thanh Phuong\\OneDrive\\Documents\\GitHub\\ToDoListWPF\\View\\CompletedTask.xaml",
+              "RelativeToolTip": "View\\CompletedTask.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-17T16:00:33.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ToDoListWPF.csproj",
               "DocumentMoniker": "C:\\Users\\Thanh Phuong\\OneDrive\\Documents\\GitHub\\ToDoListWPF\\ToDoListWPF.csproj",
               "RelativeDocumentMoniker": "ToDoListWPF.csproj",
@@ -47,18 +63,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Thanh Phuong\\OneDrive\\Documents\\GitHub\\ToDoListWPF\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
               "ToolTip": "C:\\Users\\Thanh Phuong\\OneDrive\\Documents\\GitHub\\ToDoListWPF\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-15T15:37:11.27Z"
+              "WhenOpened": "2024-10-15T15:37:11.27Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Thanh Phuong\\OneDrive\\Documents\\GitHub\\ToDoListWPF\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\Thanh Phuong\OneDrive\Documents\GitHub\ToDoListWPF\App.xaml
-31323188262
+3770064506
 
-6-1975337692
+9890153831
 198-556154604
-CompletedTask.xaml;MainWindow.xaml;ToDayTask.xaml;
+MainWindow.xaml;View\CompletedTask.xaml;View\ToDayTask.xaml;
 
 False
 
