@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "D:\\Tai_lieu_hoc_tap\\PRN212\\ToDoListWPF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|d:\\tai_lieu_hoc_tap\\prn212\\todolistwpf\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|solutionrelative:views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|d:\\tai_lieu_hoc_tap\\prn212\\todolistwpf\\views\\addtaskwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|solutionrelative:views\\addtaskwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -26,21 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UpcomingTask.xaml.cs",
-              "DocumentMoniker": "D:\\Tai_lieu_hoc_tap\\PRN212\\ToDoListWPF\\Views\\UpcomingTask.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\UpcomingTask.xaml.cs",
-              "ToolTip": "D:\\Tai_lieu_hoc_tap\\PRN212\\ToDoListWPF\\Views\\UpcomingTask.xaml.cs",
-              "RelativeToolTip": "Views\\UpcomingTask.xaml.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAcwBsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T09:21:59.738Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
@@ -60,6 +43,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "UpcomingTask.xaml.cs",
+              "DocumentMoniker": "D:\\Tai_lieu_hoc_tap\\PRN212\\ToDoListWPF\\Views\\UpcomingTask.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\UpcomingTask.xaml.cs",
+              "ToolTip": "D:\\Tai_lieu_hoc_tap\\PRN212\\ToDoListWPF\\Views\\UpcomingTask.xaml.cs",
+              "RelativeToolTip": "Views\\UpcomingTask.xaml.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAcwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T09:21:59.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "UpcomingTask.xaml",
               "DocumentMoniker": "D:\\Tai_lieu_hoc_tap\\PRN212\\ToDoListWPF\\Views\\UpcomingTask.xaml",
               "RelativeDocumentMoniker": "Views\\UpcomingTask.xaml",
@@ -71,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AddTaskWindow.xaml",
               "DocumentMoniker": "D:\\Tai_lieu_hoc_tap\\PRN212\\ToDoListWPF\\Views\\AddTaskWindow.xaml",
               "RelativeDocumentMoniker": "Views\\AddTaskWindow.xaml",
@@ -79,18 +75,6 @@
               "RelativeToolTip": "Views\\AddTaskWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-17T09:08:13.465Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\Tai_lieu_hoc_tap\\PRN212\\ToDoListWPF\\Views\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Views\\MainWindow.xaml",
-              "ToolTip": "D:\\Tai_lieu_hoc_tap\\PRN212\\ToDoListWPF\\Views\\MainWindow.xaml",
-              "RelativeToolTip": "Views\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-17T09:08:11.797Z",
               "EditorCaption": ""
             }
           ]
