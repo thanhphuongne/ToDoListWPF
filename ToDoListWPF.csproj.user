@@ -8,18 +8,18 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Compile Update="Views\AddTaskWindow.xaml.cs">
+    <Compile Update="ViewModels\AddTaskWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\UpcomingTask.xaml.cs">
+    <Compile Update="ViewModels\UpcomingTask.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="Views\AddTaskWindow.xaml">
+    <Page Update="View\AddTaskWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\UpcomingTask.xaml">
+    <Page Update="View\UpcomingTask.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

@@ -23,3 +23,30 @@ C:\Users\Thanh Phuong\OneDrive\Documents\GitHub\ToDoListWPF\obj\Debug\net8.0-win
 C:\Users\Thanh Phuong\OneDrive\Documents\GitHub\ToDoListWPF\obj\Debug\net8.0-windows\View\ToDayTask.g.cs
 C:\Users\Thanh Phuong\OneDrive\Documents\GitHub\ToDoListWPF\obj\Debug\net8.0-windows\View\CompletedTask.baml
 C:\Users\Thanh Phuong\OneDrive\Documents\GitHub\ToDoListWPF\obj\Debug\net8.0-windows\View\ToDayTask.baml
+D:\Tai_lieu_hoc_tap\PRN212\ToDoListWPF\bin\Debug\net8.0-windows\ToDoListWPF.exe
+D:\Tai_lieu_hoc_tap\PRN212\ToDoListWPF\bin\Debug\net8.0-windows\ToDoListWPF.deps.json
+D:\Tai_lieu_hoc_tap\PRN212\ToDoListWPF\bin\Debug\net8.0-windows\ToDoListWPF.runtimeconfig.json
+D:\Tai_lieu_hoc_tap\PRN212\ToDoListWPF\bin\Debug\net8.0-windows\ToDoListWPF.dll
+D:\Tai_lieu_hoc_tap\PRN212\ToDoListWPF\bin\Debug\net8.0-windows\ToDoListWPF.pdb
+D:\Tai_lieu_hoc_tap\PRN212\ToDoListWPF\obj\Debug\net8.0-windows\View\AddTaskWindow.baml
+D:\Tai_lieu_hoc_tap\PRN212\ToDoListWPF\obj\Debug\net8.0-windows\View\AddTaskWindow.g.cs
+D:\Tai_lieu_hoc_tap\PRN212\ToDoListWPF\obj\Debug\net8.0-windows\View\CompletedTask.g.cs
+D:\Tai_lieu_hoc_tap\PRN212\ToDoListWPF\obj\Debug\net8.0-windows\View\ToDayTask.g.cs
+D:\Tai_lieu_hoc_tap\PRN212\ToDoListWPF\obj\Debug\net8.0-windows\View\UpcomingTask.g.cs
+D:\Tai_lieu_hoc_tap\PRN212\ToDoListWPF\obj\Debug\net8.0-windows\App.g.cs
+D:\Tai_lieu_hoc_tap\PRN212\ToDoListWPF\obj\Debug\net8.0-windows\ToDoListWPF_MarkupCompile.cache
+D:\Tai_lieu_hoc_tap\PRN212\ToDoListWPF\obj\Debug\net8.0-windows\ToDoListWPF_MarkupCompile.lref
+D:\Tai_lieu_hoc_tap\PRN212\ToDoListWPF\obj\Debug\net8.0-windows\View\CompletedTask.baml
+D:\Tai_lieu_hoc_tap\PRN212\ToDoListWPF\obj\Debug\net8.0-windows\View\ToDayTask.baml
+D:\Tai_lieu_hoc_tap\PRN212\ToDoListWPF\obj\Debug\net8.0-windows\View\UpcomingTask.baml
+D:\Tai_lieu_hoc_tap\PRN212\ToDoListWPF\obj\Debug\net8.0-windows\ToDoListWPF.g.resources
+D:\Tai_lieu_hoc_tap\PRN212\ToDoListWPF\obj\Debug\net8.0-windows\ToDoListWPF.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tai_lieu_hoc_tap\PRN212\ToDoListWPF\obj\Debug\net8.0-windows\ToDoListWPF.AssemblyInfoInputs.cache
+D:\Tai_lieu_hoc_tap\PRN212\ToDoListWPF\obj\Debug\net8.0-windows\ToDoListWPF.AssemblyInfo.cs
+D:\Tai_lieu_hoc_tap\PRN212\ToDoListWPF\obj\Debug\net8.0-windows\ToDoListWPF.csproj.CoreCompileInputs.cache
+D:\Tai_lieu_hoc_tap\PRN212\ToDoListWPF\obj\Debug\net8.0-windows\ToDoListWPF.sourcelink.json
+D:\Tai_lieu_hoc_tap\PRN212\ToDoListWPF\obj\Debug\net8.0-windows\ToDoListWPF.dll
+D:\Tai_lieu_hoc_tap\PRN212\ToDoListWPF\obj\Debug\net8.0-windows\refint\ToDoListWPF.dll
+D:\Tai_lieu_hoc_tap\PRN212\ToDoListWPF\obj\Debug\net8.0-windows\ToDoListWPF.pdb
+D:\Tai_lieu_hoc_tap\PRN212\ToDoListWPF\obj\Debug\net8.0-windows\ToDoListWPF.genruntimeconfig.cache
+D:\Tai_lieu_hoc_tap\PRN212\ToDoListWPF\obj\Debug\net8.0-windows\ref\ToDoListWPF.dll
