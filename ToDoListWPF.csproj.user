@@ -8,18 +8,43 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Update="ViewModels\AddTaskWindow.xaml.cs">
+=======
+    <Compile Update="ViewModels\AddTask.xaml.cs">
+>>>>>>> origin/main
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ViewModels\UpcomingTask.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+<<<<<<< HEAD
   </ItemGroup>
   <ItemGroup>
     <Page Update="View\AddTaskWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\UpcomingTask.xaml">
+=======
+    <Compile Update="ViewModels\Login.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewModels\SignUp.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+>>>>>>> origin/main
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\UpcomingTask.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Login.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\SignUp.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

@@ -12,20 +12,24 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-<<<<<<< HEAD
-namespace ToDoListWPF.Views
-=======
 namespace ToDoListWPF
->>>>>>> origin/main
 {
-    /// <summary>
-    /// Interaction logic for UpcomingTask.xaml
-    /// </summary>
-    public partial class UpcomingTask : Window
+    public partial class ViewUserInfoWindow : Window
     {
-        public UpcomingTask()
+        public ViewUserInfoWindow()
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void CancelButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
+
 }
