@@ -12,24 +12,16 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace ToDoListWPF
+namespace ToDoListWPF.Views
 {
-    public partial class ViewUserInfoWindow : Window
+    /// <summary>
+    /// Interaction logic for ChangeTask.xaml
+    /// </summary>
+    public partial class ChangeTask : Window
     {
-        public ViewUserInfoWindow()
+        public ChangeTask()
         {
             InitializeComponent();
         }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void CancelButton_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
     }
-
 }

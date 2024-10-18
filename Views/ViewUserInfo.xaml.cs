@@ -15,20 +15,18 @@ using System.Windows.Shapes;
 namespace ToDoListWPF.Views
 {
     /// <summary>
-    /// Interaction logic for SignUp.xaml
+    /// Interaction logic for ViewUserInfo.xaml
     /// </summary>
-    public partial class SignUp : Window
+    public partial class ViewUserInfo : Window
     {
-        public SignUp()
+        public ViewUserInfo()
         {
             InitializeComponent();
         }
 
-        private void SignUp_Click(object sender, RoutedEventArgs e)
+        private void CancelButton_Click(object sender, RoutedEventArgs e)
         {
+
         }
-        private void cancel_Click(object sender, RoutedEventArgs e)
-        {       
-        }       
     }
 }

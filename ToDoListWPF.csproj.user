@@ -6,18 +6,29 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Compile Update="ViewModels\AddTask.xaml.cs">
+    <Compile Update="Views\AddTask.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="ViewModels\UpcomingTask.xaml.cs">
+    <Compile Update="Views\ChangeTask.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="ViewModels\Login.xaml.cs">
+    <Compile Update="Views\CompletedTask.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="ViewModels\SignUp.xaml.cs">
+    <Compile Update="Views\Login.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\SignUp.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\TodayTask.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\UpComingTask.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ViewUserInfo.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -25,13 +36,28 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\UpcomingTask.xaml">
+    <Page Update="Views\AddTask.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ChangeTask.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\CompletedTask.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\Login.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\SignUp.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\TodayTask.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\UpComingTask.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ViewUserInfo.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

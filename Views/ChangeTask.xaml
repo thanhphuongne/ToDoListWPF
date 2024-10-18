@@ -1,10 +1,11 @@
-﻿<Window x:Class="ToDoListWPF.ChangeTaskWindow"
+﻿<Window x:Class="ToDoListWPF.Views.ChangeTask"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ToDoListWPF.Views"
         mc:Ignorable="d"
-        Title="Change Task" Height="450" Width="800">
+        Title="ChangeTask" Height="450" Width="800">
     <Grid Background="#F9F9F9" Margin="20">
         <StackPanel>
             <!-- Tiêu đề -->
@@ -12,19 +13,19 @@
             <!-- Nhập tiêu đề công việc -->
             <!-- Tiêu đề -->
             <TextBlock FontSize="32" FontWeight="Bold" Text="Change Task" 
-                       Foreground="#333333" Height="43" Width="192"/>
+                   Foreground="#333333" Height="43" Width="192"/>
 
             <!-- Nhập tiêu đề công việc -->
             <TextBlock Text="Task Name" FontSize="16" Margin="0,0,0,5" Foreground="#444444"/>
             <TextBox x:Name="TaskTitleTextBox" Height="20" Margin="0,0,0,20" Padding="10" 
-                     Background="#FFFFFF" BorderBrush="#E0E0E0" BorderThickness="1" 
-                     Foreground="#333333" FontSize="14" ToolTip="Enter task title..." />
+                 Background="#FFFFFF" BorderBrush="#E0E0E0" BorderThickness="1" 
+                 Foreground="#333333" FontSize="14" ToolTip="Enter task title..." />
             <TextBlock Text="Description" FontSize="16" Foreground="#444444"/>
 
             <!-- Nhập mô tả công việc -->
             <TextBox x:Name="TaskDescriptionTextBox" Height="30" Margin="0,0,0,20" Padding="10" 
-                     Background="#FFFFFF" BorderBrush="#E0E0E0" BorderThickness="1" 
-                     Foreground="#333333" FontSize="14" TextWrapping="Wrap" AcceptsReturn="True"/>
+                 Background="#FFFFFF" BorderBrush="#E0E0E0" BorderThickness="1" 
+                 Foreground="#333333" FontSize="14" TextWrapping="Wrap" AcceptsReturn="True"/>
 
             <!-- Chọn ngày đến hạn -->
             <TextBlock Text="Due Date" FontSize="16" Margin="0,0,0,5" Foreground="#444444"/>
@@ -33,27 +34,27 @@
             <!-- Priority, Reminders, and other buttons -->
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,0,0,20">
                 <Button Content="Today" Padding="10" Margin="0,0,10,0" 
-                        Background="#E8F5E9" Foreground="#1B5E20" BorderBrush="Transparent"
-                        FontWeight="Bold" />
+                    Background="#E8F5E9" Foreground="#1B5E20" BorderBrush="Transparent"
+                    FontWeight="Bold" />
                 <Button Content="Priority" Padding="10" Margin="0,0,10,0" 
-                        Background="#FFF8E1" Foreground="#FF8F00" BorderBrush="Transparent"
-                        FontWeight="Bold"/>
+                    Background="#FFF8E1" Foreground="#FF8F00" BorderBrush="Transparent"
+                    FontWeight="Bold"/>
                 <Button Content="Reminders" Padding="10" Margin="0,0,10,0" 
-                        Background="#E3F2FD" Foreground="#0D47A1" BorderBrush="Transparent"
-                        FontWeight="Bold"/>
+                    Background="#E3F2FD" Foreground="#0D47A1" BorderBrush="Transparent"
+                    FontWeight="Bold"/>
                 <Button Content="..." Padding="10" Margin="0,0,10,0" 
-                        Background="#ECEFF1" Foreground="#37474F" BorderBrush="Transparent" 
-                        FontWeight="Bold" />
+                    Background="#ECEFF1" Foreground="#37474F" BorderBrush="Transparent" 
+                    FontWeight="Bold" />
             </StackPanel>
 
             <!-- Nút Save và Cancel -->
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
                 <Button x:Name="SaveTaskButton" Width="100" Height="40" Content="Save" Margin="0,0,10,0" 
-                        Background="#5C9EDD" Foreground="White" BorderBrush="Transparent" 
-                        FontWeight="Bold" Cursor="Hand" />
+                    Background="#5C9EDD" Foreground="White" BorderBrush="Transparent" 
+                    FontWeight="Bold" Cursor="Hand" />
                 <Button x:Name="CancelButton" Width="100" Height="40" Content="Cancel" 
-                        Background="#F44336" Foreground="White" BorderBrush="Transparent" 
-                        FontWeight="Bold" Cursor="Hand" />
+                    Background="#F44336" Foreground="White" BorderBrush="Transparent" 
+                    FontWeight="Bold" Cursor="Hand" />
             </StackPanel>
         </StackPanel>
     </Grid>

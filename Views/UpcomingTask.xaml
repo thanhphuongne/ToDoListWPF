@@ -1,11 +1,11 @@
-﻿<Window x:Class="ToDoListWPF.UpcomingTask"
+﻿<Window x:Class="ToDoListWPF.Views.UpComingTask"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:ToDoListWPF"
+        xmlns:local="clr-namespace:ToDoListWPF.Views"
         mc:Ignorable="d"
-        Title="UpcomingTask" Height="450" Width="800">
+        Title="UpComingTask" Height="450" Width="800">
     <DockPanel>
         <!-- Navbar on the left -->
         <StackPanel DockPanel.Dock="Left" Background="#FFFCFAF8" Width="153">

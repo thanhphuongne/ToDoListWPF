@@ -1,30 +1,11 @@
-﻿<Window x:Class="ToDoListWPF.CompletedTask"
+﻿<Window x:Class="ToDoListWPF.Views.CompletedTask"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:ToDoListWPF"
+        xmlns:local="clr-namespace:ToDoListWPF.Views"
         mc:Ignorable="d"
         Title="CompletedTask" Height="450" Width="800">
-
-    <!-- Resources for Styling -->
-    <Window.Resources>
-        <!-- Style for ToggleButton to change background when selected -->
-        <Style TargetType="ToggleButton">
-            <Setter Property="Background" Value="#FFFCFAF8"/>
-            <Setter Property="BorderBrush" Value="#FFFCFAF8"/>
-            <Setter Property="Padding" Value="10"/>
-            <Style.Triggers>
-                <!-- Change background when selected -->
-                <Trigger Property="IsChecked" Value="True">
-                    <Setter Property="Background" Value="Orange"/>
-                    <Setter Property="Foreground" Value="White"/>
-                </Trigger>
-            </Style.Triggers>
-        </Style>
-    </Window.Resources>
-
-    <!-- Main Layout using DockPanel -->
     <DockPanel>
         <!-- Navbar on the left -->
         <StackPanel DockPanel.Dock="Left" Background="#FFFCFAF8" Width="153">

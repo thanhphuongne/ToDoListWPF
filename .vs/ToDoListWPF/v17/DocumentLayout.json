@@ -1,7 +1,56 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Thanh Phuong\\OneDrive\\Documents\\GitHub\\ToDoListWPF\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|c:\\users\\thanh phuong\\onedrive\\documents\\github\\todolistwpf\\views\\viewuserinfo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|solutionrelative:views\\viewuserinfo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|c:\\users\\thanh phuong\\onedrive\\documents\\github\\todolistwpf\\views\\upcomingtask.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|solutionrelative:views\\upcomingtask.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|c:\\users\\thanh phuong\\onedrive\\documents\\github\\todolistwpf\\views\\todaytask.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|solutionrelative:views\\todaytask.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|c:\\users\\thanh phuong\\onedrive\\documents\\github\\todolistwpf\\views\\signup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|solutionrelative:views\\signup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|c:\\users\\thanh phuong\\onedrive\\documents\\github\\todolistwpf\\views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|solutionrelative:views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|c:\\users\\thanh phuong\\onedrive\\documents\\github\\todolistwpf\\views\\completedtask.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|solutionrelative:views\\completedtask.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|c:\\users\\thanh phuong\\onedrive\\documents\\github\\todolistwpf\\views\\changetask.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|solutionrelative:views\\changetask.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|c:\\users\\thanh phuong\\onedrive\\documents\\github\\todolistwpf\\views\\addtask.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|solutionrelative:views\\addtask.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|c:\\users\\thanh phuong\\onedrive\\documents\\github\\todolistwpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|c:\\users\\thanh phuong\\onedrive\\documents\\github\\todolistwpf\\views\\viewuserinfo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|solutionrelative:views\\viewuserinfo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|c:\\users\\thanh phuong\\onedrive\\documents\\github\\todolistwpf\\views\\signup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|solutionrelative:views\\signup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|c:\\users\\thanh phuong\\onedrive\\documents\\github\\todolistwpf\\views\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|solutionrelative:views\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +67,143 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CompletedTask.xaml",
+              "DocumentMoniker": "C:\\Users\\Thanh Phuong\\OneDrive\\Documents\\GitHub\\ToDoListWPF\\Views\\CompletedTask.xaml",
+              "RelativeDocumentMoniker": "Views\\CompletedTask.xaml",
+              "ToolTip": "C:\\Users\\Thanh Phuong\\OneDrive\\Documents\\GitHub\\ToDoListWPF\\Views\\CompletedTask.xaml",
+              "RelativeToolTip": "Views\\CompletedTask.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-18T06:57:25.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SignUp.xaml",
+              "DocumentMoniker": "C:\\Users\\Thanh Phuong\\OneDrive\\Documents\\GitHub\\ToDoListWPF\\Views\\SignUp.xaml",
+              "RelativeDocumentMoniker": "Views\\SignUp.xaml",
+              "ToolTip": "C:\\Users\\Thanh Phuong\\OneDrive\\Documents\\GitHub\\ToDoListWPF\\Views\\SignUp.xaml",
+              "RelativeToolTip": "Views\\SignUp.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-18T06:58:42.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TodayTask.xaml",
+              "DocumentMoniker": "C:\\Users\\Thanh Phuong\\OneDrive\\Documents\\GitHub\\ToDoListWPF\\Views\\TodayTask.xaml",
+              "RelativeDocumentMoniker": "Views\\TodayTask.xaml",
+              "ToolTip": "C:\\Users\\Thanh Phuong\\OneDrive\\Documents\\GitHub\\ToDoListWPF\\Views\\TodayTask.xaml",
+              "RelativeToolTip": "Views\\TodayTask.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-18T06:59:43.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViewUserInfo.xaml",
+              "DocumentMoniker": "C:\\Users\\Thanh Phuong\\OneDrive\\Documents\\GitHub\\ToDoListWPF\\Views\\ViewUserInfo.xaml",
+              "RelativeDocumentMoniker": "Views\\ViewUserInfo.xaml",
+              "ToolTip": "C:\\Users\\Thanh Phuong\\OneDrive\\Documents\\GitHub\\ToDoListWPF\\Views\\ViewUserInfo.xaml",
+              "RelativeToolTip": "Views\\ViewUserInfo.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-18T07:00:59.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "C:\\Users\\Thanh Phuong\\OneDrive\\Documents\\GitHub\\ToDoListWPF\\Views\\Login.xaml",
+              "RelativeDocumentMoniker": "Views\\Login.xaml",
+              "ToolTip": "C:\\Users\\Thanh Phuong\\OneDrive\\Documents\\GitHub\\ToDoListWPF\\Views\\Login.xaml",
+              "RelativeToolTip": "Views\\Login.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-18T06:58:16.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpComingTask.xaml",
+              "DocumentMoniker": "C:\\Users\\Thanh Phuong\\OneDrive\\Documents\\GitHub\\ToDoListWPF\\Views\\UpComingTask.xaml",
+              "RelativeDocumentMoniker": "Views\\UpComingTask.xaml",
+              "ToolTip": "C:\\Users\\Thanh Phuong\\OneDrive\\Documents\\GitHub\\ToDoListWPF\\Views\\UpComingTask.xaml",
+              "RelativeToolTip": "Views\\UpComingTask.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-18T07:00:30.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChangeTask.xaml",
+              "DocumentMoniker": "C:\\Users\\Thanh Phuong\\OneDrive\\Documents\\GitHub\\ToDoListWPF\\Views\\ChangeTask.xaml",
+              "RelativeDocumentMoniker": "Views\\ChangeTask.xaml",
+              "ToolTip": "C:\\Users\\Thanh Phuong\\OneDrive\\Documents\\GitHub\\ToDoListWPF\\Views\\ChangeTask.xaml",
+              "RelativeToolTip": "Views\\ChangeTask.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-18T06:56:46.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddTask.xaml",
+              "DocumentMoniker": "C:\\Users\\Thanh Phuong\\OneDrive\\Documents\\GitHub\\ToDoListWPF\\Views\\AddTask.xaml",
+              "RelativeDocumentMoniker": "Views\\AddTask.xaml",
+              "ToolTip": "C:\\Users\\Thanh Phuong\\OneDrive\\Documents\\GitHub\\ToDoListWPF\\Views\\AddTask.xaml",
+              "RelativeToolTip": "Views\\AddTask.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-18T06:56:54.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Thanh Phuong\\OneDrive\\Documents\\GitHub\\ToDoListWPF\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\Thanh Phuong\\OneDrive\\Documents\\GitHub\\ToDoListWPF\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T07:43:15.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Thanh Phuong\\OneDrive\\Documents\\GitHub\\ToDoListWPF\\Views\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Login.xaml.cs",
+              "ToolTip": "C:\\Users\\Thanh Phuong\\OneDrive\\Documents\\GitHub\\ToDoListWPF\\Views\\Login.xaml.cs",
+              "RelativeToolTip": "Views\\Login.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T07:47:51.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SignUp.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Thanh Phuong\\OneDrive\\Documents\\GitHub\\ToDoListWPF\\Views\\SignUp.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\SignUp.xaml.cs",
+              "ToolTip": "C:\\Users\\Thanh Phuong\\OneDrive\\Documents\\GitHub\\ToDoListWPF\\Views\\SignUp.xaml.cs",
+              "RelativeToolTip": "Views\\SignUp.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAMwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T07:48:06.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ViewUserInfo.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Thanh Phuong\\OneDrive\\Documents\\GitHub\\ToDoListWPF\\Views\\ViewUserInfo.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ViewUserInfo.xaml.cs",
+              "ToolTip": "C:\\Users\\Thanh Phuong\\OneDrive\\Documents\\GitHub\\ToDoListWPF\\Views\\ViewUserInfo.xaml.cs",
+              "RelativeToolTip": "Views\\ViewUserInfo.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T07:50:43.457Z"
             }
           ]
         }

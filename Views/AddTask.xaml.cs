@@ -15,25 +15,13 @@ using System.Windows.Shapes;
 namespace ToDoListWPF.Views
 {
     /// <summary>
-    /// Interaction logic for Login.xaml
+    /// Interaction logic for AddTask.xaml
     /// </summary>
-    public partial class Login : Window
+    public partial class AddTask : Window
     {
-        public Login()
+        public AddTask()
         {
             InitializeComponent();
-        }
-
-
-        private void Login_Click(object sender, RoutedEventArgs e)
-        {
-        }
-
-        private void SignUp_Click(object sender, RoutedEventArgs e)
-        {
-            // Mở cửa sổ đăng ký
-            SignUp signUpWindow = new SignUp();
-            signUpWindow.ShowDialog(); // Sử dụng ShowDialog để giữ cửa sổ mở
         }
     }
 }
