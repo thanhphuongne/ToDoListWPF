@@ -5,87 +5,221 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ToDoListWPF.Views"
         mc:Ignorable="d"
-        Title="Login" Height="450" Width="800">
-    <Grid Margin="0,0,0,10">
+        Title="Login">
+    <Window.Resources>
+        <Style x:Key="titleText" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="36"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="TextAlignment" Value="Center"/>
+            <Setter Property="Foreground" Value="#ffffff"/>
+        </Style>
+
+        <Style x:Key="normalText" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="LineHeight" Value="28"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="TextAlignment" Value="Center"/>
+            <Setter Property="Foreground" Value="#ffffff"/>
+        </Style>
+
+        <Style x:Key="button" TargetType="Button">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Width" Value="170"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="#fdfefe"/>
+            <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" CornerRadius="25" BorderThickness="1" BorderBrush="White" Padding="15">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#e8e8e8"/>
+                    <Setter Property="Foreground" Value="DimGray"/>
+                </Trigger>
+                <Trigger Property="IsMouseCaptured" Value="True">
+                    <Setter Property="Background" Value="#d9d9d9"/>
+                    <Setter Property="Foreground" Value="DimGray"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="buttonCircle" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+            <Setter Property="Margin" Value="8 0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" CornerRadius="30" BorderThickness="1" BorderBrush="White" Padding="15">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#d9d9d9"/>
+                </Trigger>
+                <Trigger Property="IsMouseCaptured" Value="True">
+                    <Setter Property="Background" Value="#c4c4c4"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="textHint" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Grid.Column" Value="1"/>
+            <Setter Property="Panel.ZIndex" Value="1"/>
+            <Setter Property="Margin" Value="10 0 0 0"/>
+            <Setter Property="Foreground" Value="#abc0af"/>
+        </Style>
+
+        <Style x:Key="TextBox" TargetType="Control">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Grid.Column" Value="1"/>
+            <Setter Property="Margin" Value="10 0 0 0"/>
+            <Setter Property="Foreground" Value="#878787"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="1"/>
+        </Style>
+
+        <Style x:Key="mainbutton" TargetType="Button">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Width" Value="200"/>
+            <Setter Property="Margin" Value="0 20 0 0"/>
+            <Setter Property="Background" Value="#3AB19B"/>
+            <Setter Property="Foreground" Value="#fdfefe"/>
+            <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" CornerRadius="25" BorderThickness="1" BorderBrush="#49B7A3" Padding="15">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#339685"/>
+                    <Setter Property="Foreground" Value="White"/>
+                </Trigger>
+                <Trigger Property="IsMouseCaptured" Value="True">
+                    <Setter Property="Background" Value="#2d7a6c"/>
+                    <Setter Property="Foreground" Value="White"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="imgClose" TargetType="Image">
+            <Setter Property="Width" Value="30"/>
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+            <Setter Property="HorizontalAlignment" Value="Right"/>
+            <Setter Property="Margin" Value="0 13 13 0"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseDirectlyOver" Value="True">
+                    <Setter Property="RenderTransform">
+                        <Setter.Value>
+                            <ScaleTransform ScaleX="1.1" ScaleY="1.1"/>
+                        </Setter.Value>
+                    </Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="259*"/>
+            <RowDefinition Height="195*"/>
         </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="1.5*"/>
+        </Grid.ColumnDefinitions>
 
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20">
-            <!-- Logo -->
-        </StackPanel>
+        <Image Source="C:\Users\hienn\Downloads\Thoat.png" Grid.Column="1" Panel.ZIndex="1" MouseUp="Image_Mouse" Style="{StaticResource imgClose}"/>
+        <Border CornerRadius="10 0 0 10" Grid.RowSpan="2">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#3AA9AD" Offset="0"/>
+                    <GradientStop Color="#3AA9AD" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
 
-        <!-- Card Login lớn hơn -->
-        <Border Width="400" Height="414" 
-            VerticalAlignment="Center" HorizontalAlignment="Center"
-            BorderBrush="Gray" BorderThickness="3"
-            CornerRadius="15" Background="White">
-            <Grid Margin="30">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto"></RowDefinition>
-                    <RowDefinition Height="Auto"></RowDefinition>
-                    <RowDefinition Height="Auto"></RowDefinition>
-                    <RowDefinition Height="Auto"></RowDefinition>
-                    <RowDefinition Height="Auto"></RowDefinition>
-                    <RowDefinition Height="Auto"></RowDefinition>
-                    <RowDefinition Height="Auto"></RowDefinition>
-                    <RowDefinition Height="Auto"></RowDefinition>
-                </Grid.RowDefinitions>
-                <!-- Tiêu đề -->
-                <TextBlock Grid.Row="0" Text="Login"
-                       FontSize="40" FontWeight="Bold"
-                       HorizontalAlignment="Center" 
-                       Margin="0,0,0,30" />
-                <!-- Tên đăng nhập -->
-                <StackPanel Grid.Row="1" HorizontalAlignment="Center">
-                    <TextBlock Text="Email" 
-                           FontWeight="Bold" 
-                           FontSize="20" 
-                           Margin="0,0,0,5"/>
-                    <Grid>
-                        <TextBox Width="250" 
-                             x:Name="EmailTextBox" />
-                        <TextBlock x:Name="EmailPlaceholder"
-                               Text="Enter your email..."
-                               Foreground="LightGray" 
-                               VerticalAlignment="Center" 
-                               Margin="10,0,0,0"
-                               IsHitTestVisible="False"
-                               Visibility="Visible" />
-                    </Grid>
+            <Grid>
+                <Canvas>
+                    <Polygon Points="0,20 230,140 0,270" Fill="#4EB1B6"/>
+                    <Ellipse Margin="50 400 0 0" Width="20" Height="20" Fill="#4EB1B6"/>
+                </Canvas>
+                <StackPanel VerticalAlignment="Center">
+                    <TextBlock Text="Login" Style="{StaticResource titleText}"/>
+                    <TextBlock Text="Enter your personal details to log in" Style="{StaticResource normalText}" Opacity="0.8" Margin="20 30"/>
                 </StackPanel>
-
-                <!-- Mật khẩu -->
-                <StackPanel Grid.Row="2" HorizontalAlignment="Center" Margin="0,20">
-                    <TextBlock Text="Password" 
-                           FontWeight="Bold" 
-                           FontSize="20" Margin="0,0,0,5" />
-                    <Grid>
-                        <PasswordBox x:Name="PasswordBox"
-                                 Width="250"/>
-                        <TextBlock x:Name="PasswordPlaceholder"
-                               Text="Enter your password..."
-                               Foreground="LightGray" 
-                               VerticalAlignment="Bottom" 
-                               Margin="15,0,24,-27"
-                               IsHitTestVisible="False"
-                               Visibility="Visible" Height="44" />
-                    </Grid>
-                </StackPanel>
-                <!-- Nút Login phóng to -->
-                <StackPanel Grid.Row="3" Orientation="Horizontal" 
-                        HorizontalAlignment="Center" Margin="0,30"/>
-                <StackPanel Grid.Row="4" Orientation="Horizontal" 
-                        HorizontalAlignment="Center" Margin="0,30">
-                    <Button Content="SignUp" Width="156" Height="42"
-                        Background="Blue" Foreground="White"
-                        FontSize="18" FontWeight="Bold"/>
-                </StackPanel>
-                <Button Content="Login"
-                        Background="red" Foreground="White"
-                        FontSize="18" FontWeight="Bold" RenderTransformOrigin="-0.277,0.438" Margin="92,30,92,92" Grid.RowSpan="2" Grid.Row="3"/>
             </Grid>
         </Border>
 
+        <Border Background="#ffffff" CornerRadius="0 10 10 0" MouseDown="Border_MouseDown" Grid.ColumnSpan="2" Margin="481,0,0,0" Grid.RowSpan="2">
+            <StackPanel VerticalAlignment="Center">
+                <TextBlock Text="Login to App" Style="{StaticResource titleText}" Foreground="#3AB19B"/>
+                <StackPanel Orientation="Horizontal" Margin="0 20" HorizontalAlignment="Center">
+                    <Button Style="{StaticResource buttonCircle}">
+                        <Image Source="C:\Users\hienn\Pictures\Image\facebook.jpg" Width="20" Height="20"/>
+                    </Button>
+                    <Button Style="{StaticResource buttonCircle}">
+                        <Image Source="C:\Users\hienn\Downloads\Google.png" Width="20" Height="30"/>
+                    </Button>
+                    <Button Style="{StaticResource buttonCircle}">
+                        <Image Source="C:\Users\hienn\Pictures\Image\Linkedln.png" Width="20" Height="20"/>
+                    </Button>
+                </StackPanel>
+                <TextBlock Text="or uer your email info:" Style="{StaticResource normalText}" Foreground="#878787" Margin="0 10 0 15"/>
+
+                <Border BorderThickness="1" BorderBrush="#abc0af" CornerRadius="5" Margin="70 7">
+                    <Grid Margin="7 9">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="C:\Users\hienn\Downloads\Email.png" Height="20" VerticalAlignment="Center"/>
+                        <TextBlock x:Name="textEmail" MouseDown="textEmail_MouseDown" Text="Email" Style="{StaticResource textHint}"/>
+                        <TextBox x:Name="txtEmail" TextChanged="txtEmail_TextChanged" Style="{StaticResource TextBox}"/>
+                    </Grid>
+                </Border>
+
+                <Border BorderThickness="1" BorderBrush="#abc0af" CornerRadius="5" Margin="70 7">
+                    <Grid Margin="7 9">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="C:\Users\hienn\Downloads\lock.png" Height="20" VerticalAlignment="Center"/>
+                        <TextBlock x:Name="textPassword" MouseDown="textPassword_MouseDown" Text="Password" Style="{StaticResource textHint}"/>
+                        <PasswordBox x:Name="txtPassword" PasswordChanged="txtPassword_PasswordChanged" Style="{StaticResource TextBox}"/>
+                    </Grid>
+                </Border>
+
+                <Button Content="Login" Click="Button_Click" Style="{StaticResource mainbutton}"/>
+
+                <TextBlock Text="Forgot Password?" 
+               Style="{StaticResource normalText}" 
+               Foreground="#3AB19B" 
+               Margin="0 10 0 0" 
+               HorizontalAlignment="Center" 
+               MouseDown="ForgotPassword_MouseDown"/>
+                <TextBlock HorizontalAlignment="Center" Margin="0 10 0 0" Foreground="#3AB19B" FontSize="16">
+                    <Run Text="You do not have an account? " Foreground="Black"/>
+               <Hyperlink NavigateUri="#" RequestNavigate="SignUp_RequestNavigate">
+               <Run Text="SignUp"/>
+               </Hyperlink>
+                </TextBlock>
+            </StackPanel>
+        </Border>
     </Grid>
 </Window>
