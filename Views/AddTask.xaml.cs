@@ -12,7 +12,15 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
+<<<<<<< HEAD:ViewModels/UpcomingTask.xaml.cs
+<<<<<<< HEAD
+namespace ToDoListWPF.Views
+=======
 namespace ToDoListWPF
+>>>>>>> origin/main
+=======
+namespace ToDoListWPF.Views
+>>>>>>> main:Views/AddTask.xaml.cs
 {
     /// <summary>
     /// Interaction logic for AddTask.xaml

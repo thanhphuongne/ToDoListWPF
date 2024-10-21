@@ -12,16 +12,26 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace ToDoListWPF
+namespace ToDoListWPF.Views
 {
     /// <summary>
-    /// Interaction logic for CompletedTask.xaml
+    /// Interaction logic for SignUp.xaml
     /// </summary>
-    public partial class CompletedTask : Window
+    public partial class SignUp : Window
     {
-        public CompletedTask()
+        public SignUp()
         {
             InitializeComponent();
+        }
+
+        private void SignUp_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void cancel_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

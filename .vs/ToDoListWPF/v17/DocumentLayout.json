@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Tai_lieu_hoc_tap\\PRN212\\ToDoListWPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|d:\\tai_lieu_hoc_tap\\prn212\\todolistwpf\\views\\upcomingtask.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|solutionrelative:views\\upcomingtask.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|d:\\tai_lieu_hoc_tap\\prn212\\todolistwpf\\views\\addtask.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD6852CE-A377-4A8E-BD5E-C49631C9308D}|ToDoListWPF.csproj|solutionrelative:views\\addtask.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpcomingTask.xaml",
+              "DocumentMoniker": "D:\\Tai_lieu_hoc_tap\\PRN212\\ToDoListWPF\\Views\\UpcomingTask.xaml",
+              "RelativeDocumentMoniker": "Views\\UpcomingTask.xaml",
+              "ToolTip": "D:\\Tai_lieu_hoc_tap\\PRN212\\ToDoListWPF\\Views\\UpcomingTask.xaml",
+              "RelativeToolTip": "Views\\UpcomingTask.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-21T07:09:08.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddTask.xaml",
+              "DocumentMoniker": "D:\\Tai_lieu_hoc_tap\\PRN212\\ToDoListWPF\\Views\\AddTask.xaml",
+              "RelativeDocumentMoniker": "Views\\AddTask.xaml",
+              "ToolTip": "D:\\Tai_lieu_hoc_tap\\PRN212\\ToDoListWPF\\Views\\AddTask.xaml",
+              "RelativeToolTip": "Views\\AddTask.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-21T07:09:01.942Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
